@@ -23,6 +23,6 @@ def convert_images_to_webp(directory):
                 print(f"Converted {filename} to {new_filename}")
 
 # Specify the directory containing your images
-directory = '/home/nova/Downloads/cace assets'
+directory = '/home/nova/Athena/GitHub/ambient-graphics/public/images/paintings'
 
 convert_images_to_webp(directory)
