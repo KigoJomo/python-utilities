@@ -29,7 +29,7 @@ def convert_images_to_webp(directory, traverse_subdirectories):
                     print(f"Converted {filename} to {new_filename}")
 
 # Specify the directory containing your images
-directory = '/home/nova/Athena/GitHub/ambient-graphics/public/images/'
+directory = '/home/nova/Downloads/casa-del-lusso_assets'
 
 # Prompt the user for their preference
 traverse_subdirectories = input("Do you want to traverse sub-directories? (y/n): ").lower() == 'y'
